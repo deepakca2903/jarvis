@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+frontend/.env
+!backend/.env.example
+!frontend/.env.example
+
+# Python virtual environment & bytecode
+backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Node & Frontend build
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.DS_Store
+Thumbs.db
+
+# Test coverage & logs
+*.log
+.coverage
+htmlcov/
